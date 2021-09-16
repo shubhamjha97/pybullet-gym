@@ -26,7 +26,7 @@ class BaseBulletEnv(gym.Env):
 		self.isRender = render
 		self.robot = robot
 		self._seed()
-		self._cam_dist = 3
+		self._cam_dist = 0.8
 		self._cam_yaw = 0
 		self._cam_pitch = -30
 		self._render_width = 320
